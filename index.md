@@ -3,7 +3,7 @@
 You have come to the helm repository of [BlueStone AG](https://www.bluestone.ch/de/). Please visit the corresponding Github repository, if you have any issues or would like to contribute to the repository.
 
 
-## Add the Bedag Helm Repository
+## Add the BlueStone Helm Repository
 
 ```bash
 helm repo add bedag https://bluestone.github.io/helm-charts
