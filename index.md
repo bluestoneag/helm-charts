@@ -6,7 +6,7 @@ You have come to the helm repository of [BlueStone AG](https://www.bluestone.ch/
 ## Add the BlueStone Helm Repository
 
 ```bash
-helm repo add bedag https://bluestone.github.io/helm-charts
+helm repo add bluestone https://bluestone.github.io/helm-charts
 ```
 
 ## Helm Hub
