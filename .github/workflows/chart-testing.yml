@@ -23,17 +23,6 @@ jobs:
         id: lint
         uses: helm/chart-testing-action@v2.0.1
 
-      - name: List changed charts
-        id: list-changed
-        run: |
-          ## If executed with debug this won't work anymore.
-          changed=$(ct --config ./ct.yaml list-changed)
-          charts=$(echo "$changed" | tr '\n' ' ' | xargs)
-          if [[ -n "$changed" ]]; then
-            echo "::set-output name=changed::true"
-            echo "::set-output name=changed_charts::$charts"
-          fi
-
       - name: Run chart-testing (lint)
         run: ct lint --config ./ct.yaml 
 
