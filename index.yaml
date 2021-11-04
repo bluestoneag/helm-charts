@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  bluephish:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-11-04T15:39:45.523934247Z"
+    description: A Helm chart for BluePhish
+    digest: 9fe945ed1ddebd859c915ce74171db2b6bacd80a54b34f13a26735dc786add48
+    name: bluephish
+    type: application
+    urls:
+    - https://github.com/bluestoneag/helm-charts/releases/download/bluephish-0.1.0/bluephish-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-04T15:39:45.523939947Z"
